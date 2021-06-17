@@ -119,7 +119,7 @@ LensInfo : Information of the lens present in the module.
     <ActuatorName>olive_dw9763_imx486_sunny</ActuatorName>
     <EepromName>olive_imx486_sunny</EepromName>
     <FlashName>pmic</FlashName>
-    <ChromatixName>olive_imx486_sunny_chromatix</ChromatixName>
+    <ChromatixName>olivelite_imx486_sunny_chromatix</ChromatixName>
     <ModesSupported>1</ModesSupported>
     <Position>BACK</Position>
     <MountAngle>90</MountAngle>
@@ -193,7 +193,7 @@ LensInfo : Information of the lens present in the module.
 
   <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>olive_ov13b10_qtech</SensorName>
+    <SensorName>olivelite_ov13b10_qtech</SensorName>
     <ActuatorName>olive_fp5510_ov13b10_qtech</ActuatorName>
     <EepromName>olive_ov13b10_qtech</EepromName>
     <FlashName>pmic</FlashName>
@@ -217,9 +217,9 @@ LensInfo : Information of the lens present in the module.
     </LensInfo>
   </CameraModuleConfig>
 
-   <CameraModuleConfig>
+  <CameraModuleConfig>
     <CameraId>0</CameraId>
-    <SensorName>olive_ov13b10_ofilm</SensorName>
+    <SensorName>olivelite_ov13b10_ofilm</SensorName>
     <ActuatorName>olive_dw9714_ov13b10_ofilm</ActuatorName>
     <EepromName>olive_ov13b10_ofilm</EepromName>
     <FlashName>pmic</FlashName>
@@ -312,96 +312,6 @@ LensInfo : Information of the lens present in the module.
       <HorizontalViewAngle>61.40</HorizontalViewAngle>
       <VerticalViewAngle>47.90</VerticalViewAngle>
       <MinFocusDistance>0.312</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>olive_gc2375_sunny</SensorName>
-    <ChromatixName>olive_gc2375_sunny_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x2c</LaneMask>
-      <LaneAssign>0x0003</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.94</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>0.6</TotalFocusDistance>
-      <HorizontalViewAngle>71.0</HorizontalViewAngle>
-      <VerticalViewAngle>56.0</VerticalViewAngle>
-      <MinFocusDistance>0.25</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-
-  <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>olive_ov02a10_ofilm</SensorName>
-    <ChromatixName>olive_ov02a10_ofilm_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x2C</LaneMask>
-      <LaneAssign>0x0003</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.94</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>0.6</TotalFocusDistance>
-      <HorizontalViewAngle>71.00</HorizontalViewAngle>
-      <VerticalViewAngle>56.00</VerticalViewAngle>
-      <MinFocusDistance>0.25</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-    <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>olive_gc02m1_sunny</SensorName>
-    <ChromatixName>olive_gc02m1_sunny_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x2c</LaneMask>
-      <LaneAssign>0x0003</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.94</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>0.6</TotalFocusDistance>
-      <HorizontalViewAngle>71.0</HorizontalViewAngle>
-      <VerticalViewAngle>56.0</VerticalViewAngle>
-      <MinFocusDistance>0.25</MinFocusDistance>
-    </LensInfo>
-  </CameraModuleConfig>
-     <CameraModuleConfig>
-    <CameraId>2</CameraId>
-    <SensorName>olive_gc02m1b_sunny</SensorName>
-    <ChromatixName>olive_gc02m1b_sunny_chromatix</ChromatixName>
-    <ModesSupported>1</ModesSupported>
-    <Position>BACK_AUX</Position>
-    <MountAngle>90</MountAngle>
-    <CSIInfo>
-      <CSIDCore>1</CSIDCore>
-      <LaneMask>0x2c</LaneMask>
-      <LaneAssign>0x0003</LaneAssign>
-      <ComboMode>0</ComboMode>
-    </CSIInfo>
-    <LensInfo>
-      <FocalLength>1.94</FocalLength>
-      <FNumber>2.4</FNumber>
-      <TotalFocusDistance>0.6</TotalFocusDistance>
-      <HorizontalViewAngle>71.0</HorizontalViewAngle>
-      <VerticalViewAngle>56.0</VerticalViewAngle>
-      <MinFocusDistance>0.25</MinFocusDistance>
     </LensInfo>
   </CameraModuleConfig>
 </CameraConfigurationRoot>
