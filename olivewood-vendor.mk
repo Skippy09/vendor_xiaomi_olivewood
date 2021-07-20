@@ -706,7 +706,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/wqeclient/VZW/VZW_profile6.xml \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
-    vendor/xiaomi/olivewood/proprietary/vendor/etc/device_features/olive.xml:$(TARGET_COPY_OUT_VENDOR)/etc/device_features/olive.xml \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/diracvdd.bin:$(TARGET_COPY_OUT_VENDOR)/etc/diracvdd.bin \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/diracmobile.config:$(TARGET_COPY_OUT_VENDOR)/etc/diracmobile.config \
     vendor/xiaomi/olivewood/proprietary/vendor/etc/ftm_test_config_wcd9335:$(TARGET_COPY_OUT_VENDOR)/etc/ftm_test_config_wcd9335 \
